@@ -1,0 +1,306 @@
+@media (max-width: 1350px){
+    .phone__and-email {
+        display: none;
+    }
+
+    .mobile__header-contacts {
+        display: flex;
+    }
+    .header__top-inner {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1150px){
+    .whatsapp__link {
+        font-size: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 60px 20px 70px;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    &::before {
+        background-image: url(../images/footerWhats.svg);
+        width: 50px;
+        height: 50px;
+    }
+    }
+}
+
+@media (max-width: 1000px){
+    .menu__list-item + .menu__list-item {
+        margin-left: 40px;
+    }
+    .about__right {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 990px){
+    .footer__menu {
+        order: 2;
+    }
+    .footer__menu {
+        margin: 30px auto 0;
+    }
+}
+
+@media (max-width: 900px){
+    .about__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about__img-block {
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+
+
+    .about {
+        margin: 70px 0;
+    }
+
+    .about__right {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about__title {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .about__inner-content {
+        margin: 0 auto;
+    }
+
+    .menu__list {
+        position: absolute;
+        z-index: 10;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        right: 0;
+        top: 0;
+        min-height: 100vh;
+        max-width: 320px;
+        width: 100%;
+        text-align: center;
+        padding-top: 150px;
+        transform: translateX(100%);
+        li {
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+    }
+
+    .menu__list--active {
+        transform: translateX(0);
+    }
+
+    .header {
+        background-position: center center;
+    }
+
+    .whatsapp__link {
+       margin: 0;
+       padding: 50px;
+       box-shadow: none;
+       &:hover {
+        box-shadow: none;
+       }
+    }
+
+    // .close {
+    //     display: block;
+    //     position: absolute;
+    //     left: 40px;
+    //     top: 40px;
+    // }
+
+    // .burger {
+    //     display: inline-block;
+
+    // }
+
+    .menu__list-item + .menu__list-item {
+        margin-left: 0px;
+        
+    }
+
+
+    // .mobile__whats {
+    //     display: block;
+    //     color: #fff;
+    //     text-align: center;
+    //     padding: 15px 30px 15px 35px;
+    //     border: 1px solid #3aaa35;
+    //     border-radius: 6px;
+    //     margin-right: 40px;
+    //     -webkit-box-shadow: 0px 0px 10px 2px #3aaa35;
+    //     box-shadow: 0px 0px 10px 2px #3aaa35;
+    //     position: relative;
+    //     font-size: 11px;
+    //     width: 250px;
+    //     margin: 0 auto;
+    //     &::before {
+    //         background-image: url(../images/whatsapp.svg);
+    //         background-repeat: no-repeat;
+    //         width: 20px;
+    //         height: 20px;
+    //     }
+    // }
+    .header__about-content h1 {
+        font-size: 45px;
+        line-height: 43px;
+    }
+    .header__about-content {
+        max-width: 460px;
+    }
+
+    .header__about-text {
+        font-size: 30px;
+        line-height: 31px;
+    }
+}
+
+@media (max-width: 800px) {
+    .form__block {
+        form {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto;
+            button {
+                
+                margin-top: 40px;
+                max-width: 300px;
+            }
+            input {
+                margin-top: 40px;
+                margin-right: 0px;
+            }
+            input + input {
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 787px){
+    
+}
+
+@media (max-width: 720px){
+    .products__item-top {
+        font-size: 15px;
+        line-height: 19px;
+        background: rgba(0,0,0,0.8);
+    }
+    .header__about-block p {
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 240px;
+        padding-left: 30px;
+    }
+
+    .header__about-block .stage span {
+        font-size: 60px;
+    }
+    .header__about-content {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer__menu {
+        max-width: 100%;
+    }
+
+    .license__block {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer__logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu__list-footer {
+        flex-direction: column;
+    }
+
+    .menu__list-item__footer + .menu__list-item__footer {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .form__block {
+        form {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto;
+            button {
+                
+                margin-top: 40px;
+                max-width: 300px;
+            }
+            input + input {
+                margin-left: 0px;
+            }
+            input {
+                display: block;
+                max-width: 100%;
+            }
+            
+        }
+    }
+    .about__list-item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px){
+    
+
+    .about__img-block::after {
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 90%;
+        background-color: #3e47ff;
+        right: -10px;
+        top: -10px;
+        z-index: -1;
+    }
+    .header__about-content {
+        text-align: center;
+    }
+    .header__about-content h1 {
+        font-size: 35px;
+        line-height: 39px;
+    }
+
+    .header__about-content {
+        max-width: 370px;
+    }
+
+    .header__about-text {
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 450px){
+    .mobile__header-contacts {
+        a {
+            display: block;
+            width: 100%;
+        }
+        a + a {
+            margin-left: 0;
+        }
+    }
+}
